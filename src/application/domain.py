@@ -11,10 +11,10 @@ class Transaction:
     price : float
     cost : float
 
-    @dataclass
-    class Saldo:
-        date :date
-        qty : float
+@dataclass
+class Saldo:
+    date :date
+    qty : float
 
 def converter_em_class( arquivo_transactions): 
     lista_trasanctions : List[Transaction]=[]
